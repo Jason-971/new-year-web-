@@ -419,56 +419,123 @@
   padding-left: 476px;
 }
 
-.footer {
-  background-color: #070211;
-  width: 1600px;
-  height: 609px;
+/*.footer{
+  background-color: #070211; 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   
+
 }
 
-.add{
-  color: #FFF;
-  width: 375px;
-font-size: 20px;
+
+.left{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
 font-weight: 500;
 line-height: 40px;
-align-content: left;
-padding-left: 50px;
+width:375px;
+display: flex;
+justify-content: space-around;}
+
+.right{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
+
 .phone{
   color: #FFF;
-
-font-size: 20px;
+font-family: Inter;
+font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 40px;
-padding-left: 1200px;
-
-width: 195px;
-display: flex;
-justify-content: right;
+align-items: right;
 }
+
 .website{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+align-items: right; 
+}
+.row-2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row-3{
   color: #FFF;
 
 font-family: Inter;
-font-size: 20px;
+font-size: 24px;
 font-style: normal;
 font-weight: 500;
-line-height: 40px;
-padding-left: 1200px;
-}
-.row-2{
+line-height: normal;
+display: flex;
+justify-content: space-around;}*/
+.footer-m {
+  height: 609px;
+  background-color: #070211;
   display: flex;
-  justify-content: center;
-  padding-bottom: 1500px;
-  
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+
+.left {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  width: 375px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: right;
+}
+
+.website {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  align-items: right;
 }
 .row-3{
-  display: flex;
-  justify-content: center;
-  margin: 0;
+  color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+justify-content: space-around;}
+.row-2{
+display: flex;
+justify-content: center;
+gap:20px;
 }
