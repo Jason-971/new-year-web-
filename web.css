@@ -7,7 +7,7 @@
 .banner {
   width: 1320px;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-  url('../resources/Banner Image.png') ;
+    url('../resources/Banner Image.png');
   background-repeat: no-repeat;
   text-align: center;
   height: 600px;
@@ -42,4 +42,293 @@
   font-weight: 900;
   line-height: 95px;
   margin: 0;
+}
+
+.discount-container {
+  height: 735px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.discount-offer {
+  color: #F00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 107px;
+  margin-bottom: 48px;
+}
+
+.holiday-deal {
+  color: #F00;
+  margin-top: 48px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 397px;
+  height: 29px;
+
+}
+
+.catagory {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
+  margin-top: 16px;
+  height: 58px;
+}
+
+.happy-new-year {
+  width: 802.9px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+ 
+}
+.party{
+  display: flex;
+  justify-content: center;
+  background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+   url('../resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #FFF;
+  border-radius: 16px;
+  align-items: center;
+  display: flex;
+  width: 1320px;
+  margin-top: 120px;
+}
+.year{
+  display: flex;
+width: 319.83px;
+height: 464.662px;
+padding: 0.008px 0px 0px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.party-text{
+color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 697px;
+flex-direction: column;
+}
+
+.greetings{
+width: 640px;
+color: #FFF;
+font-family: Merriweather;
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+align-items: left;
+}
+.join-btn{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  color: rgb(126, 6, 6);
+  padding: 14px 28px;
+  font-size: 16px;
+}
+.event-p{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  height: 482px;
+}
+.event{
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  width: 1320px;
+  align-items: center;
+  
+}
+
+
+.event-details{
+  color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 175% */
+text-transform: capitalize;
+  
+}
+.event-text{
+  color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.button-p{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.join-btn2{
+  border: 2px solid rgb(255, 255, 255);
+  background-color:red;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+.new-offer{
+  width: 1320px;
+  display: flex;
+  justify-content: center;
+
+  
+  
+
+}
+.offer-p{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.offer{
+  color: #F00;
+
+
+
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+
+.coming-soon{
+  color: #070211;
+font-family: Merriweather;
+font-size: 20px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 254px;
+margin-top: 150px;
+
+}
+.offer-details{
+  color: rgba(7, 2, 17, 0.60);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 182px;
+  
+  width:393px;
+}
+.family-pic{
+  width: 364.844px;
+  height: 364.844px;
+  flex-shrink: 0;
+  border-radius: 364.844px;
+  border-radius: 463px;
+border: 15px solid #F00;
+}
+.wishes{
+  color: #F00;
+  width: 364px;
+  margin-left: 144px;
+height: 58px;
+flex-shrink: 0;
+font-size: 45px;
+margin-top: 62px;
+margin-bottom: 293px;
+
+}
+.text{
+  color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
+
+
+.new-year-wish{
+  width: 140px;
+height: 140px;
+flex-shrink: 0;}
+
+.gifts{
+  width:1500px;
+height: 735px;
+
+
+}
+.portfolio{
+  color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.instruction{
+  color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+width: 896px;
+}
+
+.row{
+  
+  width: 424px;
+height: 450px;
+border-radius: 16px;
+display: flex;
+
+}
+.Best-gift{
+  color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+width: 192px;
+align-content: top left;
+
 }
